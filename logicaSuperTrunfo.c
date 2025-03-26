@@ -1,43 +1,71 @@
 #include <stdio.h>
+int main(){
+    
+printf(" Desafio Desenvolvendo a Logica do Jogo!\n");
 
-// Desafio Super Trunfo - Países
-// Tema 2 - Comparação das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de comparação de cartas de cidades. 
-// Siga os comentários para implementar cada parte do desafio.
+    unsigned int Carta1 = 20;
+    unsigned int Carta2 = 10;
+    float Pib1 = 15.1;
+    float Pib2 = 12.7;
+    char Bahia1;
+    char Sergipe2;
 
-int main() {
-    // Definição das variáveis para armazenar as propriedades das cidades
-    // Você pode utilizar o código do primeiro desafio
 
     
-    // Cadastro das Cartas:
-    // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
-    // utilizando a função scanf para capturar as entradas.
-    // utilize o código do primeiro desafio
+    printf("Entre com o numero da carta: \n");
+    scanf("%u", &Carta1);
 
-    // Exemplo:
-    // printf("Digite o código da cidade: ");
-    // scanf("%s", codigo);
-    // 
-    // (Repita para cada propriedade)
+    printf("Entre com o numero da carta: \n");
+    scanf("%u", &Carta2);
 
-    // Comparação de Cartas:
-    // Desenvolva a lógica de comparação entre duas cartas.
-    // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
+    printf("Digite o Pib da sua Cidade: \n");
+scanf("%f", &Pib1);
+    
+printf("Digite o Pib da sua Cidade: \n");
+scanf("%f", &Pib1);
+   
+    if(Carta1 > Carta2){
+        // Condicao Verdadeira
+printf(" O Estado da Bahia Venceu\n");
 
-    // Exemplo:
-    // if (populacaoA > populacaoB) {
-    //     printf("Cidade 1 tem maior população.\n");
-    // } else {
-    //     printf("Cidade 2 tem maior população.\n");
-    // }
+    } else {
+        // Condicao Falsa
+        printf("O Estado de Sergipe Venceu\n");
+    }
 
-    // Exibição dos Resultados:
-    // Após realizar as comparações, exiba os resultados para o usuário.
-    // Certifique-se de que o sistema mostre claramente qual carta venceu e com base em qual atributo.
+    if(Pib1 > Pib2){
+        // Condicao Verdadeira
+        printf("Pib1 Venceu\n");
+    }
 
-    // Exemplo:
-    // printf("A cidade vencedora é: %s\n", cidadeVencedora);
 
-    return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
